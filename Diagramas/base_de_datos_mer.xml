@@ -1,0 +1,151 @@
+<mxfile host="Linux" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="AKjREz3K6IBbTcv9qnPk" name="Page-1">
+    <mxGraphModel dx="1042" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eq9XhAxk39HduFaWgDON-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="50" width="170" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="docente" value="Docente" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="500" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="recurso" value="Recurso" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="500" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="incidente" value="Incidente" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="60" y="195" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="prestamo" value="Préstamo" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="500" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="reserva" value="Reserva" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="740" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="genera" value="Genera" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="260" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="triangulo_herencia" value="" style="triangle;whiteSpace=wrap;html=1;direction=north;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="545" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sub_equipos" value="Equipos Inform" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="220" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sub_sala" value="Sala" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="370" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sub_multi" value="Dispositivo multi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="510" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sub_accesorios" value="Accesorios" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="660" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_docente" value="&lt;u&gt;cedula&lt;/u&gt;&lt;div&gt;nombre_completo&lt;br&gt;correo&lt;br&gt;telefonos *&lt;br&gt;dpto_academico&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="340" y="40" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_prestamo" value="fecha_entrega&lt;br&gt;fecha_devolución" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="660" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_reserva" value="fecha_&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;solicitud&lt;/span&gt;&lt;div&gt;fecha_inicio&lt;br&gt;fecha_finalizacion&lt;br&gt;estado&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="890" y="180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_recurso" value="&lt;u&gt;codigo&lt;/u&gt;&lt;div&gt;nombre&lt;br&gt;estado&lt;br&gt;ubicacion&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="380" y="305" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_incidente" value="&lt;u&gt;id_inc&lt;/u&gt;&lt;br&gt;fecha&lt;br&gt;nivel_gravedad" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="270" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_equipos" value="procesador&lt;br&gt;mem_ram&lt;div&gt;sistema_operativo&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="220" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_sala" value="piso&lt;br&gt;cap_máxima" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="370" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_multi" value="resolucion&lt;div&gt;tipo_conexión&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="510" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrib_accesorios" value="descripcio&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;n&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="660" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="line_doc_pres" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="docente" target="prestamo" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_rec_pres" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="recurso" target="prestamo" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_doc_res" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="docente" target="reserva" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_rec_res" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="recurso" target="reserva" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_gen_inc" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="incidente" target="genera" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_gen_pres" style="endArrow=none;html=1;strokeColor=#000000;startArrow=oval;startFill=1;" parent="1" source="genera" target="prestamo" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_rec_tri" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="recurso" target="triangulo_herencia" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_tri_equipos" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="triangulo_herencia" target="sub_equipos" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_tri_sala" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="triangulo_herencia" target="sub_sala" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_tri_multi" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="triangulo_herencia" target="sub_multi" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_tri_acc" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="triangulo_herencia" target="sub_accesorios" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_doc" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="docente" target="atrib_docente" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_pres" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="prestamo" target="atrib_prestamo" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_res" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="reserva" target="atrib_reserva" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_rec" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="recurso" target="atrib_recurso" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_inc" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="incidente" target="atrib_incidente" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_eq" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="sub_equipos" target="atrib_equipos" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_sa" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="sub_sala" target="atrib_sala" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_mu" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="sub_multi" target="atrib_multi" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line_atrib_ac" style="endArrow=none;html=1;strokeColor=#000000;" parent="1" source="sub_accesorios" target="atrib_accesorios" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq9XhAxk39HduFaWgDON-4" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq9XhAxk39HduFaWgDON-5" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq9XhAxk39HduFaWgDON-6" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq9XhAxk39HduFaWgDON-7" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq9XhAxk39HduFaWgDON-8" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq9XhAxk39HduFaWgDON-9" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
