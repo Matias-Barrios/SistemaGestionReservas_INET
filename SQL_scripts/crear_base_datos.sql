@@ -88,14 +88,3 @@ CREATE TABLE INCIDENTE (
   FOREIGN KEY (id_prestamo) REFERENCES PRESTAMO(id_prestamo)
 );
 
--- Consultas de ejemplo
-
-SELECT 
-    r.codigo,
-    r.nombre,
-    r.estado,
-    r.ubicacion,
-    dm.resolucion,
-    dm.tipo_conexion
-FROM RECURSO r
-INNER JOIN DISPOSITIVO_MULTIMEDIA dm ON r.codigo = dm.codigo;
