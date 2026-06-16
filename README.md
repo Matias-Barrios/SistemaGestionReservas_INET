@@ -19,4 +19,4 @@ Para levantar el entorno correctamente, ejecute los scripts en el siguiente orde
 4. `04_consultas_de_ejemplo.sql` (Ejemplos de consultas e informes)
 5. `05_trigger_fecha_reserva_test.sql` (Pruebas de fallos controlados para el trigger)
 
-**Autor:** Matías Barrios, Pablo Macovsky, Gabriela, Luis Petrone
+**Autor:** Matías Barrios, Pablo Macovsky, Gabriela Borba, Luis Petrone
